@@ -18,6 +18,10 @@ set (PROTOBUF_DIR            ${3TH_PARTY_DIR}/protobuf)
 set (PROTOBUF_INCLUDE_DIR    ${PROTOBUF_DIR}/include)
 set (PROTOBUF_LIBRARY        ${PROTOBUF_DIR}/lib/libprotobuf.so)
 
+set (JSONCPP_DIR             ${3TH_PARTY_DIR}/jsoncpp)
+set (JSONCPP_INCLUDE_DIR     ${JSONCPP_DIR}/include/jsoncpp)
+set (JSONCPP_LIBRARY         ${JSONCPP_DIR}/lib/libjsoncpp.so)
+
 ########################
 #
 # modules

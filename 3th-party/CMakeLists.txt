@@ -1,5 +1,5 @@
 
 add_subdirectory (protobuf)
-#add_subdirectory (jsoncpp)
+add_subdirectory (jsoncpp)
 
 
