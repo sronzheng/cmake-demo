@@ -1,17 +1,17 @@
 
-set (TARGET demoapp)
+set (TARGET hello)
 
 set (INC_DIRS 
-    ${MYMATH_INCLUDE_DIR}
+    ${ARITHM_INCLUDE_DIR}
     .
     )
 
 set (LIBS
-    ${MYMATH_LIBRARY}
+    ${ARITHM_LIBRARY}
     )
 
 set (SRCS
-    DemoApp.cpp
+    Hello.cpp
     )
 
 include_directories (${INC_DIRS})

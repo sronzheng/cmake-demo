@@ -1,5 +1,5 @@
 
-set (TARGET mymath)
+set (TARGET arithm)
 
 set (INC_DIRS 
     ../include
@@ -10,7 +10,7 @@ set (LIBS
     )
 
 set (SRCS
-    MyMath.cpp
+    Arithm.cpp
     )
 
 include_directories (${INC_DIRS})

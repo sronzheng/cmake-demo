@@ -30,9 +30,9 @@ set (PLATFORM_DIR            ${MODULE_ROOT_DIR}/platform)
 
 # common libraries
 
-set (BASE_LIBRARY            base)
-set (BASE_DIR                ${COMMON_DIR}/base)
-set (BASE_INCLUDE_DIR        ${BASE_DIR}/include)
+set (ARITHM_LIBRARY          arithm)
+set (ARITHM_DIR              ${COMMON_DIR}/arithm)
+set (ARITHM_INCLUDE_DIR      ${ARITHM_DIR}/include)
 
 # platform libraries
 

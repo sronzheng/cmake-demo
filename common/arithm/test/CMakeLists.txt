@@ -1,5 +1,5 @@
 
-set (TARGET testMyMath) 
+set (TARGET testArithm) 
 
 set (INC_DIRS 
     ${GTEST_INCLUDE_DIR}
@@ -9,7 +9,8 @@ set (INC_DIRS
 
 set (TEST_SRCS
      Main.cpp
-     MyMathTest.cpp
+     ../src/Arithm.cpp
+     ArithmTest.cpp
      )
 
 set (LIBS
