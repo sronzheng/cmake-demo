@@ -4,16 +4,14 @@ cmake_minimum_required (VERSION 3.0)
 project (demo)
 
 include (cmake/BuildType.cmake)
-
 include (cmake/Add3thPartyModules.cmake)
-
 include (cmake/MakeModulePaths.cmake)
 
 add_subdirectory (3th-party)
 add_subdirectory (common)
 add_subdirectory (platform)
 add_subdirectory (apps)
-#add_subdirectory (scripts)
+add_subdirectory (scripts)
 
 file (READ Version.hpp VERSION_STR)
 

@@ -1,8 +1,8 @@
 
-set (SCRIPT
+set (SCRIPTS
     start.sh
     stop.sh)
 
-install (PROGRAMS ${SCRIPT} 
+install (PROGRAMS ${SCRIPTS} 
          DESTINATION bin)
 
