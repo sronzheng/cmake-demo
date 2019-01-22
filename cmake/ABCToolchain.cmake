@@ -1,10 +1,10 @@
 
-set (VENDOR "ABC")
+set (VENDOR "SP")
 
 set (CMAKE_SYSTEM_NAME  "Linux")
 
-set (CMAKE_C_COMPILER   "/opt/arm/bin/arm-none-linux-gnueabi-gcc")
-set (CMAKE_CXX_COMPILER   "/opt/arm/bin/arm-none-linux-gnueabi-g++")
+set (CMAKE_C_COMPILER   "/opt/arm-2010q1/bin/arm-none-linux-gnueabi-gcc")
+set (CMAKE_CXX_COMPILER "/opt/arm-2010q1/bin/arm-none-linux-gnueabi-g++")
 
 set (CMAKE_FIND_ROOT_PATH /opt/arm)
 

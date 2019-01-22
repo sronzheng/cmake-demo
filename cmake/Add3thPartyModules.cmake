@@ -22,7 +22,7 @@ set (PB_CMD_ARGS --with-protoc=/usr/bin/protoc
                         --disable-static
                         --enable-shared)
 
-if (TARGET_ARCH STREQUAL "ABC")
+if (TARGET_ARCH STREQUAL "SP")
     set (PB_CMD_ARGS_CROSS --host=arm-linux-gnueabi)
 endif()
 
